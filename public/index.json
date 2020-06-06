@@ -1,0 +1,141 @@
+[
+{
+	"uri": "https://example.com/shortcodes/getdataframe/",
+	"title": "get_dataframe()",
+	"tags": [],
+	"description": "Usage of the get_dataframe() method",
+	"content": "The get_dataframe() method is the backbone of all the methods in Stonks. It serves as the only communication point with the internet, and is essential to the package. It will return the stock prices for the last 100 days.\nUsage Here is how to call the method:\nCopy   import stonks name = \u0026#39;IBM\u0026#39; df = stonks.get_dataframe(name) #This would return stock prices for IBM for the past 100 days    The stock prices are returned as a pandas dataframe object  Parameters name The name parameter is the only parameter of the method. It determines what stock the data comes from.\nThe name parameter accepts a String value, and must be in the proper stock name format.\nEx: \u0026lsquo;MSFT\u0026rsquo; for Microsoft Inc.\n"
+},
+{
+	"uri": "https://example.com/getting-started/",
+	"title": "Getting started",
+	"tags": [],
+	"description": "",
+	"content": "Get started with Stonks, the easy way to deal with financial data analytics. Installation and configuration is easy and can be easily applied to any project.\nInstallation   Usage    "
+},
+{
+	"uri": "https://example.com/getting-started/installation/",
+	"title": "Installation",
+	"tags": [],
+	"description": "",
+	"content": "Installing Stonks is easy. It can be done in one line with git. Installing Through Terminal This is very easy. Enter your directory of choice, and clone the repository with git. Here is the command to run in case you don\u0026rsquo;t know how to clone with git\nCopy   git clone https://github.com/moonbeam87/Stonks.git    Installing through GitHub This is even easier. Click the GitHub Icon on the menu of this website, and then click \u0026ldquo;Download as Zip\u0026rdquo;. After that it\u0026rsquo;s as simple as extracting the code in the right directory.\n"
+},
+{
+	"uri": "https://example.com/shortcodes/marketcap/",
+	"title": "marketCap()",
+	"tags": [],
+	"description": "Usage of the get_dataframe() method",
+	"content": ""
+},
+{
+	"uri": "https://example.com/shortcodes/get_series/",
+	"title": "get_series()",
+	"tags": [],
+	"description": "Method that collects multiple dataframes at once",
+	"content": "The get_series() method collects multiple dataframes, and organizes them into a neat list.\nUsage Here is how to call the method:\nCopy   import stonks names = [\u0026#39;IBM\u0026#39;, \u0026#39;AAPL\u0026#39;, \u0026#39;GOOGL\u0026#39;] series = stonks.get_series(names) #This would return stock prices for IBM, AAPL, and GOOGLE for the past 100 days    Parameters style The style parameter is directly applied to the alert as a class in the format \u0026ldquo;btn-{STYLE}\u0026quot;. Bootstrap comes with a variety of styles that can be used with this:\n primary secondary danger warning success info  Each style can also be presented as an \u0026lsquo;outline\u0026rsquo; variant by prefixing the style with \u0026lsquo;outline-'.\nExample: style=\u0026quot;outline-primary\u0026quot;.\nlink The link parameter may consist of an URL leading to a page or other website. Simply use it by defining a URL for the button to link to.\nExample: link=\u0026quot;https://google.com\u0026quot;.\n"
+},
+{
+	"uri": "https://example.com/getting-started/usage/",
+	"title": "Usage",
+	"tags": [],
+	"description": "",
+	"content": "With the code installed, using Stonks is as simple as this:\nCopy   import stonks  \n or\nCopy   import stonks as st  \n "
+},
+{
+	"uri": "https://example.com/shortcodes/sharperatio/",
+	"title": "Childpages",
+	"tags": [],
+	"description": "",
+	"content": "The childpages shortcode allows you to show a list of sub-pages of the current page. For example, the Getting started page of this documentation has three child pages: Installation, Configuration and Creating content. Placing the childpages shortcode in the Getting started page will place a create a list of these sub-pages in that page.\nUsage Simply place the following shortcode on the page Copy   {{\u0026lt; childpages \u0026gt;}}    "
+},
+{
+	"uri": "https://example.com/shortcodes/expectedreturn/",
+	"title": "Code",
+	"tags": [],
+	"description": "",
+	"content": "Add code to your page with syntax highlighting and a copy button so your users can easily copy the code to their clipboard with the press of a button. The code may be entered inside the shortcode or come from an external file.\nCopy   \u0026lt;div class=\u0026#34;mydiv bg-primary shadow text-white\u0026#34;\u0026gt; \u0026lt;h1 class=\u0026#34;title\u0026#34;\u0026gt;Hi there\u0026lt;/h1\u0026gt; \u0026lt;p class=\u0026#34;lead\u0026#34;\u0026gt;I\u0026#39;m inside a code shortcode. Check out my syntax highlighting!.\u0026lt;/p\u0026gt; \u0026lt;/div\u0026gt;    Usage Simply place the following shortcode on the page\nCode in the shortcode Copy   {{\u0026lt; code lang=\u0026#34;LANG\u0026#34; \u0026gt;}} [your code] {{\u0026lt; /code \u0026gt;}}    Code from a file Copy   {{\u0026lt; code lang=\u0026#34;LANG\u0026#34; file=\u0026#34;code/mycode.html\u0026#34; \u0026gt;}}    Parameters lang The lang parameter defines the language to be used for code highlighting. You can find a complete list of supported languages here.\nExample: lang=\u0026quot;html\u0026quot;\nfile The file parameter allows you to define an external file that contains your code to be displayed. This is done by giving a path to that file, starting from the root directory of your site. For example, a HTML file named \u0026lsquo;mycode.html\u0026rsquo; you wish to link that is in the docs/code/ directory can be defined as follows: file=\u0026quot;code/mycode.html\u0026quot;.\n"
+},
+{
+	"uri": "https://example.com/shortcodes/logreturn/",
+	"title": "Collapse",
+	"tags": [],
+	"description": "",
+	"content": "Feel like hiding some content from your visitor in a collapsible element? The collapse shortcode does exactly that. It creates a button that shows or hides the content in the shortcode on request.\nClick me to show content  Hi there, I'm the hidden content. Didn't see that one coming, huh?   Usage Simply place the following shortcode on the page Copy   {{\u0026lt; collapse title=\u0026#34;TITLE\u0026#34; \u0026gt;}} [content] {{\u0026lt; /collapse \u0026gt;}}    Parameters title The lang parameter defines the text to show in the button that toggles the collapse content.\nExample: title=\u0026quot;Click me to show content\u0026quot;.\n"
+},
+{
+	"uri": "https://example.com/shortcodes/getstocks/",
+	"title": "Doublecode",
+	"tags": [],
+	"description": "",
+	"content": "The doublecode shortcode works the same as the code shortcode, but extends the functionality by also rendering the code in the page. This is useful for showing the code of HTML elements in your page.\nHi there\nI'm inside a doublecode shortcode, that's why I look so fancy.\n   Copy   \u0026lt;div class=\u0026#34;mydiv bg-primary shadow text-white p-3 m-4 border-primary\u0026#34;\u0026gt; \u0026lt;p class=\u0026#34;h4 title\u0026#34;\u0026gt;Hi there\u0026lt;/p\u0026gt; \u0026lt;p class=\u0026#34;lead mb-0\u0026#34;\u0026gt;I\u0026#39;m inside a doublecode shortcode, that\u0026#39;s why I look so fancy.\u0026lt;/p\u0026gt; \u0026lt;/div\u0026gt;    Usage Simply place the following shortcode on the page\nCode in the shortcode Copy   {{\u0026lt; doublecode lang=\u0026#34;LANG\u0026#34; \u0026gt;}} [your code] {{\u0026lt; /doublecode \u0026gt;}}    Code from a file Copy   {{\u0026lt; doublecode lang=\u0026#34;LANG\u0026#34; file=\u0026#34;code/mycode.html\u0026#34; \u0026gt;}}    Parameters lang The lang parameter defines the language to be used for code highlighting. You can find a complete list of supported languages here.\nExample: lang=\u0026quot;html\u0026quot;\nfile The file parameter allows you to define an external file that contains your code to be displayed. This is done by giving a path to that file, starting from the root directory of your site. For example, a HTML file named \u0026lsquo;mycode.html\u0026rsquo; you wish to link that is in the docs/code/ directory can be defined as follows: file=\u0026quot;code/mycode.html\u0026quot;.\n"
+},
+{
+	"uri": "https://example.com/shortcodes/rebalanceweights/",
+	"title": "Lead",
+	"tags": [],
+	"description": "",
+	"content": "The lead shortcode creates a paragraph with the lead class to make it stand out. Great for introductions or summaries.\nI\u0026rsquo;m a lead paragraph. That means I\u0026rsquo;m more important. And you can see that. Usage Simply place the following shortcode on the page Copy   {{\u0026lt; lead \u0026gt;}} [content] {{\u0026lt; /lead \u0026gt;}}    "
+},
+{
+	"uri": "https://example.com/shortcodes/getrandomweights/",
+	"title": "Panel",
+	"tags": [],
+	"description": "",
+	"content": "Draw your visitor\u0026rsquo;s attention by separating information from the rest of the page using a panel. Convey meaning to this information by using colors implying danger, warning, success or info in a similar fashion as alerts.\nI\u0026#39;m important  Be sure to read me, I might have important information for you.    Usage Simply place the following shortcode on the page Copy   {{\u0026lt; panel title=\u0026#34;TITLE\u0026#34; style=\u0026#34;STYLE\u0026#34; \u0026gt;}} [content] {{\u0026lt; /panel \u0026gt;}}    Parameters Style The style parameter is directly applied to the alert as a class in the format \u0026ldquo;border-{STYLE}\u0026quot;. Bootstrap comes with a variety of styles that can be used with this:\n primary secondary danger warning success info Example: style=\u0026quot;danger\u0026quot;.  Title The title paramter defines the text shown as a title in the panel. It will have the same color as the style.\nExample: title=\u0026quot;I\u0026rsquo;m important\u0026quot;.\n"
+},
+{
+	"uri": "https://example.com/shortcodes/alltimepointchange/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://example.com/shortcodes/getarraystats/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://example.com/shortcodes/predictedprices/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://example.com/shortcodes/run_prophet/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://example.com/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://example.com/shortcodes/",
+	"title": "Method Reference",
+	"tags": [],
+	"description": "",
+	"content": "Here, you will find references for all the methods in Stonks get_dataframe()   marketCap()   get_series()   Childpages   Code   Collapse   Doublecode   Lead   Panel            "
+},
+{
+	"uri": "https://example.com/",
+	"title": "Stonks documentation",
+	"tags": [],
+	"description": "",
+	"content": "Stonks is a lightweight, python package for Stock Data. It is open source, and allows members of the community to contribute. Features   Fast.  By Implementing Multiprocessing and Multi-threading, Stonks can take existing packages, and run them nearly twice as fast.      Lightweight.  Based off existing packages, Stonks serves as an easy to use wrapper that joins multiple packages and apis together, making your life easier.      For every project.  Stonks is very easy to implement, and can be used in virtually any Python Script, Project, or Notebook      Automatic.  Stonks can quickly scale up to your computing needs, and is very flexible.      Full search.  Our docs allow to quickly search and pinpoint what to you want to see.     About Stonks is the brainchild of Dev Patel. He decided to make it with the goal of having one central package to handle most financial data analytics requests.\n"
+},
+{
+	"uri": "https://example.com/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

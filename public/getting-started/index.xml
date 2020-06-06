@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting started on Stonks</title>
+    <link>https://example.com/getting-started/</link>
+    <description>Recent content in Getting started on Stonks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://example.com/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installation</title>
+      <link>https://example.com/getting-started/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/getting-started/installation/</guid>
+      <description>Installing Stonks is easy. It can be done in one line with git. Installing Through Terminal This is very easy. Enter your directory of choice, and clone the repository with git. Here is the command to run in case you don&amp;rsquo;t know how to clone with git
+Copy   git clone https://github.com/moonbeam87/Stonks.git    Installing through GitHub This is even easier. Click the GitHub Icon on the menu of this website, and then click &amp;ldquo;Download as Zip&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Usage</title>
+      <link>https://example.com/getting-started/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/getting-started/usage/</guid>
+      <description>With the code installed, using Stonks is as simple as this:
+Copy   import stonks  
+ or
+Copy   import stonks as st  
+ </description>
+    </item>
+    
+  </channel>
+</rss>

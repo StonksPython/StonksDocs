@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Method Reference on Stonks</title>
+    <link>https://example.com/shortcodes/</link>
+    <description>Recent content in Method Reference on Stonks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://example.com/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>get_dataframe()</title>
+      <link>https://example.com/shortcodes/getdataframe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/getdataframe/</guid>
+      <description>The get_dataframe() method is the backbone of all the methods in Stonks. It serves as the only communication point with the internet, and is essential to the package. It will return the stock prices for the last 100 days.
+Usage Here is how to call the method:
+Copy   import stonks name = &amp;#39;IBM&amp;#39; df = stonks.get_dataframe(name) #This would return stock prices for IBM for the past 100 days    The stock prices are returned as a pandas dataframe object  Parameters name The name parameter is the only parameter of the method.</description>
+    </item>
+    
+    <item>
+      <title>marketCap()</title>
+      <link>https://example.com/shortcodes/marketcap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/marketcap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>get_series()</title>
+      <link>https://example.com/shortcodes/get_series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/get_series/</guid>
+      <description>The get_series() method collects multiple dataframes, and organizes them into a neat list.
+Usage Here is how to call the method:
+Copy   import stonks names = [&amp;#39;IBM&amp;#39;, &amp;#39;AAPL&amp;#39;, &amp;#39;GOOGL&amp;#39;] series = stonks.get_series(names) #This would return stock prices for IBM, AAPL, and GOOGLE for the past 100 days    Parameters style The style parameter is directly applied to the alert as a class in the format &amp;ldquo;btn-{STYLE}&amp;quot;. Bootstrap comes with a variety of styles that can be used with this:</description>
+    </item>
+    
+    <item>
+      <title>Childpages</title>
+      <link>https://example.com/shortcodes/sharperatio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/sharperatio/</guid>
+      <description>The childpages shortcode allows you to show a list of sub-pages of the current page. For example, the Getting started page of this documentation has three child pages: Installation, Configuration and Creating content. Placing the childpages shortcode in the Getting started page will place a create a list of these sub-pages in that page.
+Usage Simply place the following shortcode on the page Copy   {{&amp;lt; childpages &amp;gt;}}    </description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://example.com/shortcodes/expectedreturn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/expectedreturn/</guid>
+      <description>Add code to your page with syntax highlighting and a copy button so your users can easily copy the code to their clipboard with the press of a button. The code may be entered inside the shortcode or come from an external file.
+Copy   &amp;lt;div class=&amp;#34;mydiv bg-primary shadow text-white&amp;#34;&amp;gt; &amp;lt;h1 class=&amp;#34;title&amp;#34;&amp;gt;Hi there&amp;lt;/h1&amp;gt; &amp;lt;p class=&amp;#34;lead&amp;#34;&amp;gt;I&amp;#39;m inside a code shortcode. Check out my syntax highlighting!.&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt;    Usage Simply place the following shortcode on the page</description>
+    </item>
+    
+    <item>
+      <title>Collapse</title>
+      <link>https://example.com/shortcodes/logreturn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/logreturn/</guid>
+      <description>Feel like hiding some content from your visitor in a collapsible element? The collapse shortcode does exactly that. It creates a button that shows or hides the content in the shortcode on request.
+Click me to show content  Hi there, I&#39;m the hidden content. Didn&#39;t see that one coming, huh?   Usage Simply place the following shortcode on the page Copy   {{&amp;lt; collapse title=&amp;#34;TITLE&amp;#34; &amp;gt;}} [content] {{&amp;lt; /collapse &amp;gt;}}    Parameters title The lang parameter defines the text to show in the button that toggles the collapse content.</description>
+    </item>
+    
+    <item>
+      <title>Doublecode</title>
+      <link>https://example.com/shortcodes/getstocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/getstocks/</guid>
+      <description>The doublecode shortcode works the same as the code shortcode, but extends the functionality by also rendering the code in the page. This is useful for showing the code of HTML elements in your page.
+Hi there
+I&#39;m inside a doublecode shortcode, that&#39;s why I look so fancy.
+   Copy   &amp;lt;div class=&amp;#34;mydiv bg-primary shadow text-white p-3 m-4 border-primary&amp;#34;&amp;gt; &amp;lt;p class=&amp;#34;h4 title&amp;#34;&amp;gt;Hi there&amp;lt;/p&amp;gt; &amp;lt;p class=&amp;#34;lead mb-0&amp;#34;&amp;gt;I&amp;#39;m inside a doublecode shortcode, that&amp;#39;s why I look so fancy.</description>
+    </item>
+    
+    <item>
+      <title>Lead</title>
+      <link>https://example.com/shortcodes/rebalanceweights/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/rebalanceweights/</guid>
+      <description>The lead shortcode creates a paragraph with the lead class to make it stand out. Great for introductions or summaries.
+I&amp;rsquo;m a lead paragraph. That means I&amp;rsquo;m more important. And you can see that. Usage Simply place the following shortcode on the page Copy   {{&amp;lt; lead &amp;gt;}} [content] {{&amp;lt; /lead &amp;gt;}}    </description>
+    </item>
+    
+    <item>
+      <title>Panel</title>
+      <link>https://example.com/shortcodes/getrandomweights/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/getrandomweights/</guid>
+      <description>Draw your visitor&amp;rsquo;s attention by separating information from the rest of the page using a panel. Convey meaning to this information by using colors implying danger, warning, success or info in a similar fashion as alerts.
+I&amp;#39;m important  Be sure to read me, I might have important information for you.    Usage Simply place the following shortcode on the page Copy   {{&amp;lt; panel title=&amp;#34;TITLE&amp;#34; style=&amp;#34;STYLE&amp;#34; &amp;gt;}} [content] {{&amp;lt; /panel &amp;gt;}}    Parameters Style The style parameter is directly applied to the alert as a class in the format &amp;ldquo;border-{STYLE}&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/shortcodes/alltimepointchange/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/alltimepointchange/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/shortcodes/getarraystats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/getarraystats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/shortcodes/predictedprices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/predictedprices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/shortcodes/run_prophet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/run_prophet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

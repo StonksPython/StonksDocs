@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.com/shortcodes/getdataframe/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/getting-started/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/getting-started/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/marketcap/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/get_series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/getting-started/usage/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/sharperatio/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/expectedreturn/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/logreturn/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/getstocks/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/rebalanceweights/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/getrandomweights/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/alltimepointchange/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/getarraystats/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/predictedprices/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/run_prophet/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/shortcodes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+  </url>
+  
+</urlset>
