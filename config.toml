@@ -31,11 +31,11 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "Documentation Code"
-url = "https://github.com/moonbeam87"
+url = "https://github.com/StonksPython/stonksdocs"
 weight = 1
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i>"
-url = "https://github.com/moonbeam87/Stonks"
+url = "https://github.com/StonksPython/Stonks"
 weight = 10
 

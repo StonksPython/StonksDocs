@@ -13,7 +13,7 @@ This is very easy. Enter your directory of choice, and clone the repository with
 Here is the command to run in case you don't know how to clone with git
 
 {{< code lang="bash" >}}
-git clone https://github.com/moonbeam87/Stonks.git
+git clone https://github.com/StonksPython/Stonks.git
 {{< /code >}}
 
 ## Installing through GitHub

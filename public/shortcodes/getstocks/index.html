@@ -8,7 +8,7 @@
 
     <title>
         
-        Doublecode | Stonks
+        getStocks() | Stonks
         
     </title>
 
@@ -125,7 +125,7 @@
         <li data-nav-id="/shortcodes/getstocks/" class="nav-item my-1 active">
                 
                  <a href="/shortcodes/getstocks/" class="nav-link p-0">
-                    Doublecode
+                    getStocks()
                 </a>
         </li>
         <li data-nav-id="/shortcodes/rebalanceweights/" class="nav-item my-1">
@@ -178,8 +178,8 @@
   <ul>
     <li><a href="#usage">Usage</a>
       <ul>
-        <li></li>
         <li><a href="#parameters">Parameters</a></li>
+        <li><a href="#parameters-1">Parameters</a></li>
       </ul>
     </li>
   </ul>
@@ -189,54 +189,11 @@
 
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
 
-<h1>Doublecode</h1>
+<h1>getStocks()</h1>
 
-<p>The <em>doublecode</em> shortcode works the same as the <a href="/shortcodes/code/">code</a> shortcode, but extends the functionality by also rendering the code in the page. This is useful for showing the code of HTML elements in your page.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="border border-light" style="border-width:3px!important;">
-
-    <div class="px-3 py-2">
-        
-<div class="mydiv bg-primary shadow text-white p-3 m-4 border-primary">
-	<p class="h4 title">Hi there</p>
-	<p class="lead mb-0">I'm inside a doublecode shortcode, that's why I look so fancy.</p>
-</div>
-      
-    </div>
-
-</div>
- 
-<div class="position-relative">
-    <div class="position-absolute" style="right:0;">
-        <button class="btn btn-light" data-clipboard-target="#clipboard_c0b81ce64b">
-            Copy
-        </button>
-    </div>
-    <div id="clipboard_c0b81ce64b">
-        <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
-&lt;<span style="font-weight:bold">div</span> <span style="color:#007f7f">class</span>=<span style="color:#0ff;font-weight:bold">&#34;mydiv bg-primary shadow text-white p-3 m-4 border-primary&#34;</span>&gt;
-	&lt;<span style="font-weight:bold">p</span> <span style="color:#007f7f">class</span>=<span style="color:#0ff;font-weight:bold">&#34;h4 title&#34;</span>&gt;Hi there&lt;/<span style="font-weight:bold">p</span>&gt;
-	&lt;<span style="font-weight:bold">p</span> <span style="color:#007f7f">class</span>=<span style="color:#0ff;font-weight:bold">&#34;lead mb-0&#34;</span>&gt;I&#39;m inside a doublecode shortcode, that&#39;s why I look so fancy.&lt;/<span style="font-weight:bold">p</span>&gt;
-&lt;/<span style="font-weight:bold">div</span>&gt;
-
-</code></pre></div>
-    </div>
-</div>
-
+<p>The getStocks() method is another alternative to get_series(). It takes in a list of names as well, but return the output as one, joined dataframe object.</p>
 <h2 id="usage">Usage</h2>
-<p>Simply place the following shortcode on the page</p>
-<h4 id="code-in-the-shortcode">Code in the shortcode</h4>
+<p>Here is how to call the getStocks() method :</p>
 
 
 
@@ -251,43 +208,16 @@
 
 <div class="position-relative">
     <div class="position-absolute" style="right:0;">
-        <button class="btn btn-light" data-clipboard-target="#clipboard_80cfc5b8f0">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_d6856f6a4d">
         Copy
         </button>
     </div>
-    <div id="clipboard_80cfc5b8f0">
-    <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
-{{&lt; <span style="font-weight:bold">doublecode</span> <span style="color:#007f7f">lang</span>=<span style="color:#0ff;font-weight:bold">&#34;LANG&#34;</span> &gt;}} [your code] {{&lt; /<span style="font-weight:bold">doublecode</span> &gt;}}
-
-</code></pre></div>
-    </div>
-</div>
-
-
-
-
-<h4 id="code-from-a-file">Code from a file</h4>
-
-
-
-
-
-
-    
-    
-
-
-
-
-<div class="position-relative">
-    <div class="position-absolute" style="right:0;">
-        <button class="btn btn-light" data-clipboard-target="#clipboard_1956476b90">
-        Copy
-        </button>
-    </div>
-    <div id="clipboard_1956476b90">
-    <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
-{{&lt; <span style="font-weight:bold">doublecode</span> <span style="color:#007f7f">lang</span>=<span style="color:#0ff;font-weight:bold">&#34;LANG&#34;</span> <span style="color:#007f7f">file</span>=<span style="color:#0ff;font-weight:bold">&#34;code/mycode.html&#34;</span> &gt;}}
+    <div id="clipboard_d6856f6a4d">
+    <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<span style="color:#fff;font-weight:bold">import</span> stonks
+names = [<span style="color:#0ff;font-weight:bold">&#39;IBM&#39;</span>, <span style="color:#0ff;font-weight:bold">&#39;AAPL&#39;</span>, <span style="color:#0ff;font-weight:bold">&#39;GOOGL&#39;</span>]
+stocks = stonks.getStocks(names)
+<span style="color:#007f7f">#This would return stock prices for IBM, AAPL, and GOOGLE for the past 100 days</span>
 
 </code></pre></div>
     </div>
@@ -297,12 +227,9 @@
 
 
 <h3 id="parameters">Parameters</h3>
-<h4 id="lang"><em>lang</em></h4>
-<p>The lang parameter defines the language to be used for code highlighting. You can find a complete list of supported languages <a href="https://gohugo.io/content-management/syntax-highlighting/#list-of-chroma-highlighting-languages" target="_blank">here</a>.</p>
-<p>Example: <code>lang=&quot;html&quot;</code></p>
-<h4 id="file"><em>file</em></h4>
-<p>The file parameter allows you to define an external file that contains your code to be displayed. This is done by giving a path to that file, starting from the root directory of your site. <br>
-For example, a HTML file named <em>&lsquo;mycode.html&rsquo;</em> you wish to link that is in the <em>docs/code/</em> directory can be defined as follows: <code>file=&quot;code/mycode.html&quot;</code>.</p>
+<h3 id="parameters-1">Parameters</h3>
+<h4 id="names"><em>names</em></h4>
+<p>The names parameter is a list of names. These names have to be formatted with the Stock Symbol, as the getStocks() implements get_series().</p>
 
 
     

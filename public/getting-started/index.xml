@@ -17,7 +17,7 @@
       
       <guid>https://example.com/getting-started/installation/</guid>
       <description>Installing Stonks is easy. It can be done in one line with git. Installing Through Terminal This is very easy. Enter your directory of choice, and clone the repository with git. Here is the command to run in case you don&amp;rsquo;t know how to clone with git
-Copy   git clone https://github.com/moonbeam87/Stonks.git    Installing through GitHub This is even easier. Click the GitHub Icon on the menu of this website, and then click &amp;ldquo;Download as Zip&amp;rdquo;.</description>
+Copy   git clone https://github.com/StonksPython/Stonks.git    Installing through GitHub This is even easier. Click the GitHub Icon on the menu of this website, and then click &amp;ldquo;Download as Zip&amp;rdquo;.</description>
     </item>
     
     <item>
